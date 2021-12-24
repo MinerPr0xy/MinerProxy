@@ -16,6 +16,7 @@
 ```bash
 git clone https://github.com/MinerPr0xy/MinerProxy.git
 cd MinerProxy
+chmod a+x minerProxy_2.6.6T2_linux
 ./minerProxy_2.6.6T2_linux
 ```
 
