@@ -6,6 +6,12 @@
 <img src="https://user-images.githubusercontent.com/96627099/147362631-cbb07053-f8c7-4258-aa0f-cc01ddc96e15.png" />
 </div>
 
+# 矿工交流 TG电报群：https://t.me/Miner_Proxy
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/96627099/147364637-3db2caea-f536-4a9c-ad7d-d062559d46fe.png" width="500" height="500" />
+</div>
+
 # Liunx-使用方法
 ```bash
 git clone https://github.com/MinerPr0xy/MinerProxy.git
