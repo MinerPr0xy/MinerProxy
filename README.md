@@ -16,18 +16,18 @@
 ```bash
 git clone https://github.com/MinerPr0xy/MinerProxy.git
 cd MinerProxy
-chmod a+x minerProxy_3.0.0_linux
-./minerProxy_3.0.0_linux
+chmod a+x minerProxy_3.0.1_linux
+./minerProxy_3.0.1_linux
 ```
 
 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
 ### 后台运行（注意后面的&）运行完再敲几下回车
 ```bash
-nohup ./minerProxy_3.0.0_linux &
+nohup ./minerProxy_3.0.1_linux &
 ```
 ### 后台运行时关闭
 ```bash
-killall minerProxy_3.0.0_linux
+killall minerProxy_3.0.1_linux
 ```
 ### 后台运行时查看
 ```bash
@@ -51,9 +51,9 @@ yum install git
 
 # Windows-使用方法
 ```bash
-./minerProxy_3.0.0_windows.exe
+./minerProxy_3.0.1_windows.exe
 ```
-或双击打开minerProxy_3.0.0_windows.exe 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
+或双击打开minerProxy_3.0.1_windows.exe 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
 
 # 配置文件 config.yml
 ```
@@ -101,6 +101,7 @@ webserver: true 开启web面板填：true 关闭填：false
 
 # 更新日志
 ```bigquery
+2021-12-25 10:02    3.0.0>>>修复了有的矿机掉线后无法连接或不断开连接的问题，修复了部分人蚂蚁矿池无法连接的问题，建议3.0.0版本升级到此版本
 2021-12-25 10:02    3.0.0>>>代码重构,经过了单机1600台压力测试
 2021-12-24 00:30    2.6.6T2>>>修复若干bug
 2021-12-23 11:17    2.6.5>>>增加了web版本,优化部分代码
