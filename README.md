@@ -49,11 +49,11 @@ apt install git
 yum update
 yum install git
 ```
-## Llinux设置自启动
+## Llinux设置自启动（不熟悉LINUX不建议设置）
 ```bash
 apt install supervisor -y
 cd /etc/supervisor/conf/  #如果找不到这个目录，执行 cd /etc/supervisor/conf.d/
-nano minerProxy.conf
+vim minerProxy.conf
 ```
 ```bash
 [program:minerProxy]
