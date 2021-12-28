@@ -49,23 +49,6 @@ apt install git
 yum update
 yum install git
 ```
-## Llinux设置自启动（不熟悉LINUX不建议设置）
-```bash
-apt install supervisor -y
-cd /etc/supervisor/conf/  #如果找不到这个目录，执行 cd /etc/supervisor/conf.d/
-vim minerProxy.conf
-```
-```bash
-[program:minerProxy]
-command=/root/MinerProxy/minerProxy_3.0.3_linux
-directory=/root/MinerProxy/
-autostart=true
-autorestart=true
-```
-```bash
-supervisorctl reload
-```
-
 # Windows-使用方法
 ```bash
 ./minerProxy_3.0.3_windows.exe
