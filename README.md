@@ -12,7 +12,34 @@
 <img src="https://user-images.githubusercontent.com/96627099/147364637-3db2caea-f536-4a9c-ad7d-d062559d46fe.png" width="500" height="500" />
 </div>
 
-# Liunx-使用方法
+# Liunx-一键安装脚本
+好处：适合又想要Linux稳定性的，又不懂Linux的小白的学习者
+功能：包含自启动和进程守护，重启后可以自动运行，会放开防火墙和连接数限制，一键搞定
+要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
+使用 root 用户输入下面命令安装或卸载
+```bash
+bash <(curl -s -L https://git.io/Jy13U)
+```
+### 输入命令回车之后一直卡住不动，换这种办法
+ubuntu/debian 系统安装
+```bash
+wget: apt-get update -y && apt-get install wget -y
+```
+centos 系统安装
+```bash
+yum update -y && yum install wget -y
+```
+安装好 wget 之后 下载脚本并执行
+wget https://raw.githubusercontent.com/MinerPr0xy/MinerProxy/main/install.sh
+bash install.sh
+
+### 提示 curl: command not found的先安装curl
+如果提示 curl: command not found ，那是因为你的 VPS 没装 curl
+ubuntu/debian 系统安装 curl 方法: apt-get update -y && apt-get install curl -y
+centos 系统安装 curl 方法: yum update -y && yum install curl -y
+安装好 curl 之后就能安装脚本了
+
+# Liunx-手动安装
 ```bash
 git clone https://github.com/MinerPr0xy/MinerProxy.git
 cd MinerProxy
