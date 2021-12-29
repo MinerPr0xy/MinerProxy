@@ -30,13 +30,21 @@ centos 系统安装
 yum update -y && yum install wget -y
 ```
 安装好 wget 之后 下载脚本并执行
+```bash
 wget https://raw.githubusercontent.com/MinerPr0xy/MinerProxy/main/install.sh
 bash install.sh
+```
 
 ### 提示 curl: command not found的先安装curl
 如果提示 curl: command not found ，那是因为你的 VPS 没装 curl
-ubuntu/debian 系统安装 curl 方法: apt-get update -y && apt-get install curl -y
-centos 系统安装 curl 方法: yum update -y && yum install curl -y
+ubuntu/debian 系统安装 curl 方法: 
+```bash
+apt-get update -y && apt-get install curl -y
+```
+centos 系统安装 curl 方法: 
+```bash
+yum update -y && yum install curl -y
+```
 安装好 curl 之后就能安装脚本了
 
 # Liunx-手动安装
