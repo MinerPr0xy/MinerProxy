@@ -177,7 +177,7 @@ start_write_config() {
     sleep 1
     echo "[******----]"
     echo
-    cat /etc/MinerProxyLite/config.yml
+    cat /etc/MinerProxy/config.yml
     echo "----------------------------------------------------------------"
 }
 
