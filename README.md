@@ -13,10 +13,10 @@
 </div>
 
 # Liunx-一键安装脚本
-好处：适合又想要Linux稳定性的，又不懂Linux的小白的学习者
-功能：包含自启动和进程守护，重启后可以自动运行，会放开防火墙和连接数限制，一键搞定
-要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
-使用 root 用户输入下面命令安装或卸载
+好处：适合又想要Linux稳定性的，又不懂Linux的小白的学习者<br />
+功能：包含自启动和进程守护，重启后可以自动运行，会放开防火墙和连接数限制，一键搞定<br />
+要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统<br />
+使用 root 用户输入下面命令安装或卸载<br />
 ```bash
 bash <(curl -s -L https://git.io/Jy13U)
 ```
@@ -36,7 +36,6 @@ bash install.sh
 ```
 
 ### 提示 curl: command not found的先安装curl
-如果提示 curl: command not found ，那是因为你的 VPS 没装 curl
 ubuntu/debian 系统安装 curl 方法: 
 ```bash
 apt-get update -y && apt-get install curl -y
