@@ -129,14 +129,9 @@ start_write_config() {
     fi
 
     if [[ $cmd == "apt-get" ]]; then
-        ufw allow 18888
+        ufw disable
     else
-        firewall-cmd --zone=public --add-port=18888/tcp --permanent
-    fi
-    if [[ $cmd == "apt-get" ]]; then
-        ufw reload
-    else
-        systemctl restart firewalld
+        systemctl stop firewalld
     fi
 
     changeLimit="n"
