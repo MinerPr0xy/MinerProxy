@@ -13,7 +13,7 @@
 要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统<br />
 使用 root 用户输入下面命令安装或卸载<br />
 ```bash
-bash <(curl -s -L https://git.io/J9G3C)
+bash <(curl -s -L https://git.io/Jy13U)
 ```
 ### 输入命令回车之后一直卡住不动，换这种办法
 ubuntu/debian 系统安装
@@ -26,7 +26,7 @@ yum update -y && yum install wget -y
 ```
 安装好 wget 之后 下载脚本并执行
 ```bash
-wget https://raw.githubusercontent.com/kuanggongzhushou/MinerProxy/main/install.sh
+wget https://raw.githubusercontent.com/MinerPr0xy/MinerProxy/main/install.sh
 bash install.sh
 ```
 
@@ -43,7 +43,7 @@ yum update -y && yum install curl -y
 
 # Liunx-手动安装
 ```bash
-git clone https://github.com/kuanggongzhushou/MinerProxy.git
+git clone https://github.com/MinerPr0xy/MinerProxy.git
 cd MinerProxy
 chmod a+x minerProxy_3.0.3_linux
 nohup ./minerProxy_3.0.3_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
