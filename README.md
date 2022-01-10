@@ -1,5 +1,11 @@
-# MinerProxy
+# MinerProxy - 以修改作者抽水至千分之三。
 最稳定的ETH以太坊代理中转矿池程序，MinerProxy/矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，支持web界面管理，包含自启动和进程守护，重启后可以自动运行，会放开防火墙和连接数限制，一键搞定。
+
+# MinerProxy - 使用后算力截图，算力几乎无损耗。
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/96627099/148779614-6ce9006a-6bf3-4c15-87d5-1b3e12ed10b9.png" width="883" height="400" />
+</div>
 
 # 矿工交流 TG电报群：https://t.me/Miner_Proxy
 
