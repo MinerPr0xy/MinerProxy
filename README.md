@@ -1,5 +1,9 @@
-# MinerProxy - 作者抽水千分之三。
+# MinerProxy - 全新界面，支持ETH，ETC，抽水稳定不掉线，作者抽水千分之三。
 最稳定的ETH以太坊代理中转矿池程序，MinerProxy/矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，支持web界面管理，包含自启动和进程守护，重启后可以自动运行，会放开防火墙和连接数限制，一键搞定。
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/96627099/152695920-dfe0fb0f-bc2b-48b7-993a-2014233e2a66.png" width="1000" height="800" />
+</div>
 
 # MinerProxy - 使用后算力截图，算力几乎无损耗。
 
@@ -51,19 +55,19 @@ yum update -y && yum install curl -y
 ```bash
 git clone https://github.com/MinerPr0xy/MinerProxy.git
 cd MinerProxy
-chmod a+x minerProxy_3.0.3_linux
-nohup ./minerProxy_3.0.3_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
+chmod a+x MinerProxy_6.0.0_linux
+nohup ./MinerProxy_6.0.0_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
 tail -f nohup.out (后台运行时查看)
 ```
 
 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
 ### 后台运行（注意后面的&）运行完再敲几下回车
 ```bash
-nohup ./minerProxy_3.0.3_linux &
+nohup ./MinerProxy_6.0.0_linux &
 ```
 ### 后台运行时关闭
 ```bash
-killall minerProxy_3.0.3_linux
+killall MinerProxy_6.0.0_linux
 ```
 ### 后台运行时查看
 ```bash
@@ -86,6 +90,6 @@ yum install git
 ```
 # Windows-使用方法
 ```bash
-./minerProxy_3.0.3_windows.exe
+./MinerProxy_6.0.0_windows.exe
 ```
-或双击打开minerProxy_3.0.3_windows.exe 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
+或双击打开 启动.bat 运行成功后访问 IP:19999 (如：127.0.0.1:19999 注意开放端口) 进行配置即可。
