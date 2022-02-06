@@ -154,7 +154,7 @@ start_write_config() {
     fi
     supervisorctl reload
     echo "本机防火墙端口19999已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
-    echo "请访问本机IP:19999"
+    echo "默认端口:19999 默认密码:https://github.com/MinerPr0xy/MinerProxy 访问管理界面:本机IP:19999"
     echo
     echo "安装完成...守护模式无日志，需要日志的请以nohup ./MinerProxy_6.0.0_linux &方式运行"
     echo
