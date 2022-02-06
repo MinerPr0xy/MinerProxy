@@ -1,13 +1,17 @@
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
-#### 最新版本：[V6.0.0_ETHASH(2022-02-04)]()
-#### 联繫我们：[Telegram 讨论群组(欢迎向我们提出建议)]()、[GitHub]()
-#### V1.3.0更新内容：此次版本为大版本更新，强烈建议更新。
-- 新增支持不关闭代理池的情况下动态修改代理池抽水率和僞装本地提交算力(Reported Hashrate )百分比
-- 修改允许最大抽水率为40%, 并修复极端情况下设置多个相同的抽水账户(钱包地址和矿机名完全相同)的情况下导致的CPU利用率上升
-- 修复处理矿机请求时出现致命错误: runtime error: invalid memory address or nil pointer dereference
-- 新增网页后台监控服务器资源使用情况
-- 新增网页后台在綫数、算力、提交折线图
-#### 掉綫原因参考表：
-- EOF: 客户端主动发出的下綫请求
+#### 最新版本：[V6.0.0_ETHASH(2022-02-07)](https://github.com/MinerPr0xy/MinerProxy/releases/tag/6.0.0) - [[历史更新日志]](https://github.com/MinerPr0xy/MinerProxy/releases)
+#### 联系我们：[Telegram 讨论群组(欢迎向我们提出建议)](https://t.me/Miner_Proxy)、[GitHub](https://github.com/MinerPr0xy/MinerProxy)
+#### 联系我们：QQ群：683918874、微信：edavhdl（备注：加群）
+----
+#### V6.0.0更新内容：此次版本为小版本更新，可以选择不更新，建议需要CrazyPool的用户更新。
+- 针对使用NiceHash/Stratum2协议的矿池进行兼容并实现自适应切换
+- 内置矿池新增Crazypool (NiceHash协议池)
+- 对部分新款专业矿机进行兼容
+- 修复了主页性能图中内存单位GB显示为B的显示问题
+- 修复了无法指定自定义矿池为抽水目标的问题
+注意：由于协议差异, 目前无法实现跨协议抽水, 所以如果设置CrazyPool为归集目标的话需要客户端均使用NiceHash/Stratum2协议。
+已知问题：矿机使用NiceHash/Stratum2协议的情况下暂时无法获取难度，将在后续更新进行支持。
+#### 掉线原因参考表：
+- EOF: 客户端主动发出的下线请求
 - i/o timeout: 长时间未收到客户端的提交
-- reset bt peer: TCP连接被重置，可能是綫路波动丢包或阻断0.0
+- reset bt peer: TCP连接被重置，可能是线路波动丢包或阻断
