@@ -1,9 +1,9 @@
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
-#### 最新版本：[V6.0.0_ETHASH(2022-02-07)](https://github.com/MinerPr0xy/MinerProxy/releases/tag/6.0.0) - [[历史更新日志]](https://github.com/MinerPr0xy/MinerProxy/releases)
+#### 最新版本：[V6.0.1_ETHASH(2022-02-07)](https://github.com/MinerPr0xy/MinerProxy/releases/tag/6.0.0) - [[历史更新日志]](https://github.com/MinerPr0xy/MinerProxy/releases)
 #### 联系我们：[Telegram 讨论群组(欢迎向我们提出建议)](https://t.me/Miner_Proxy)、[GitHub](https://github.com/MinerPr0xy/MinerProxy)
 #### 联系我们：QQ群：683918874、微信：edavhdl（备注：加群）
 ----
-#### V6.0.0更新内容：此次版本为小版本更新，可以选择不更新，建议需要CrazyPool的用户更新。
+#### V6.0.1更新内容：此次版本为小版本更新，可以选择不更新，建议需要CrazyPool的用户更新。
 - 针对使用NiceHash/Stratum2协议的矿池进行兼容并实现自适应切换
 - 内置矿池新增Crazypool (NiceHash协议池)
 - 对部分新款专业矿机进行兼容
