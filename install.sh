@@ -136,11 +136,11 @@ start_write_config() {
 
     changeLimit="n"
     if [ $(grep -c "root soft nofile" /etc/security/limits.conf) -eq '0' ]; then
-        echo "root soft nofile 102400" >>/etc/security/limits.conf
+        echo "root soft nofile 1024000" >>/etc/security/limits.conf
         changeLimit="y"
     fi
     if [ $(grep -c "root hard nofile" /etc/security/limits.conf) -eq '0' ]; then
-        echo "root hard nofile 102400" >>/etc/security/limits.conf
+        echo "root hard nofile 1024000" >>/etc/security/limits.conf
         changeLimit="y"
     fi
 
