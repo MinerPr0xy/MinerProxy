@@ -55,19 +55,19 @@ yum update -y && yum install curl -y
 ```bash
 git clone https://github.com/MinerPr0xy/MinerProxy.git
 cd MinerProxy
-chmod a+x MinerProxy_6.0.1_linux
-nohup ./MinerProxy_6.0.1_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
+chmod a+x MinerProxy_6.0.2_linux
+nohup ./MinerProxy_6.0.2_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
 tail -f nohup.out (后台运行时查看)
 ```
 
 运行成功后访问 IP:19999 (如：127.0.0.1:19999 注意开放端口) 进行配置即可。
 ### 后台运行（注意后面的&）运行完再敲几下回车
 ```bash
-nohup ./MinerProxy_6.0.1_linux &
+nohup ./MinerProxy_6.0.2_linux &
 ```
 ### 后台运行时关闭
 ```bash
-killall MinerProxy_6.0.1_linux
+killall MinerProxy_6.0.2_linux
 ```
 ### 后台运行时查看
 ```bash
@@ -90,6 +90,6 @@ yum install git
 ```
 # Windows-使用方法
 ```bash
-./MinerProxy_6.0.1_windows.exe
+./MinerProxy_6.0.2_windows.exe
 ```
 或双击打开 启动.bat 运行成功后访问 IP:19999 (如：127.0.0.1:19999 注意开放端口) 进行配置即可。
