@@ -97,25 +97,25 @@ start_write_config() {
     echo
     echo "下载完成，开启守护"
     echo
-    chmod a+x $installPath/MinerProxy_6.0.1_linux
+    chmod a+x $installPath/MinerProxy_6.0.2_linux
     if [ -d "/etc/supervisor/conf/" ]; then
         rm /etc/supervisor/conf/MinerProxy.conf -f
         echo "[program:MinerProxy]" >>/etc/supervisor/conf/MinerProxy.conf
-        echo "command=${installPath}/MinerProxy_6.0.1_linux" >>/etc/supervisor/conf/MinerProxy.conf
+        echo "command=${installPath}/MinerProxy_6.0.2_linux" >>/etc/supervisor/conf/MinerProxy.conf
         echo "directory=${installPath}/" >>/etc/supervisor/conf/MinerProxy.conf
         echo "autostart=true" >>/etc/supervisor/conf/MinerProxy.conf
         echo "autorestart=true" >>/etc/supervisor/conf/MinerProxy.conf
     elif [ -d "/etc/supervisor/conf.d/" ]; then
         rm /etc/supervisor/conf.d/MinerProxy.conf -f
         echo "[program:MinerProxy]" >>/etc/supervisor/conf.d/MinerProxy.conf
-        echo "command=${installPath}/MinerProxy_6.0.1_linux" >>/etc/supervisor/conf.d/MinerProxy.conf
+        echo "command=${installPath}/MinerProxy_6.0.2_linux" >>/etc/supervisor/conf.d/MinerProxy.conf
         echo "directory=${installPath}/" >>/etc/supervisor/conf.d/MinerProxy.conf
         echo "autostart=true" >>/etc/supervisor/conf.d/MinerProxy.conf
         echo "autorestart=true" >>/etc/supervisor/conf.d/MinerProxy.conf
     elif [ -d "/etc/supervisord.d/" ]; then
         rm /etc/supervisord.d/MinerProxy.ini -f
         echo "[program:MinerProxy]" >>/etc/supervisord.d/MinerProxy.ini
-        echo "command=${installPath}/MinerProxy_6.0.1_linux" >>/etc/supervisord.d/MinerProxy.ini
+        echo "command=${installPath}/MinerProxy_6.0.2_linux" >>/etc/supervisord.d/MinerProxy.ini
         echo "directory=${installPath}/" >>/etc/supervisord.d/MinerProxy.ini
         echo "autostart=true" >>/etc/supervisord.d/MinerProxy.ini
         echo "autorestart=true" >>/etc/supervisord.d/MinerProxy.ini
@@ -174,7 +174,7 @@ start_write_config() {
     echo "本机防火墙端口19999已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
     echo "默认端口:19999 默认密码:https://github.com/MinerPr0xy/MinerProxy 访问管理界面:本机IP:19999"
     echo
-    echo "安装完成...守护模式无日志，需要日志的请以nohup ./MinerProxy_6.0.1_linux &方式运行"
+    echo "安装完成...守护模式无日志，需要日志的请以nohup ./MinerProxy_6.0.2_linux &方式运行"
     echo
     echo "以下配置文件：/etc/MinerProxy/config.yml，网页端可修改登录密码token"
     echo
@@ -190,7 +190,7 @@ start_write_config() {
     sleep 1
     echo "[******----]"
     echo
-    cat /etc/MinerProxy/config.json
+    cat /etc/MinerProxy/pwd.txt
     echo "----------------------------------------------------------------"
 }
 
