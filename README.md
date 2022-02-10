@@ -12,6 +12,8 @@
 </div>
 
 # 矿工交流 TG电报群：https://t.me/Miner_Proxy
+#### 联系我们：[Telegram 讨论群组(欢迎向我们提出建议)](https://t.me/Miner_Proxy)、[GitHub](https://github.com/MinerPr0xy/MinerProxy)
+#### 联系我们：QQ群：683918874、微信：edavhdl（备注：加群）
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/96627099/147364637-3db2caea-f536-4a9c-ad7d-d062559d46fe.png" width="500" height="500" />
