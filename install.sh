@@ -132,6 +132,8 @@ start_write_config() {
         ufw disable
     else
         systemctl stop firewalld
+	sleep 1
+	systemctl disable firewalld.service
     fi
 
     changeLimit="n"
@@ -170,7 +172,9 @@ start_write_config() {
         echo "系统连接数限制已经改了，如果第一次运行本程序需要重启!"
         echo
     fi
+    sleep 1
     supervisorctl reload
+    sleep 1
     echo "本机防火墙端口19999已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
     echo "默认端口:19999 默认密码:https://github.com/MinerPr0xy/MinerProxy 访问管理界面:本机IP:19999"
     echo
@@ -178,19 +182,6 @@ start_write_config() {
     echo
     echo "以下配置文件：/etc/MinerProxy/config.yml，网页端可修改登录密码token"
     echo
-    echo "[*---------]"
-    sleep 1
-    echo "[**--------]"
-    sleep 1
-    echo "[***-------]"
-    sleep 1
-    echo "[****------]"
-    sleep 1
-    echo "[*****-----]"
-    sleep 1
-    echo "[******----]"
-    echo
-    cat /etc/MinerProxy/pwd.txt
     echo "----------------------------------------------------------------"
 }
 
