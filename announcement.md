@@ -1,6 +1,6 @@
 #### 重要提示必看
 #### 1.Linux系统第一次安装完成后请重启服务器，这样可以突破连接限制！！！
-#### 2.安装完成后，请立即修改默认密码，以防别有用心之人，扫描端口偷偷登录！！！
+#### 2.安装完成后，请立即修改后台默认密码以及19999默认端口，以防别有用心之人，扫描端口偷偷登录！！！
 ----
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
 #### 最新版本：[V6.0.3_ETHASH(2022-02-10)](https://github.com/MinerPr0xy/MinerProxy/releases/tag/6.0.2) - [[历史更新日志]](https://github.com/MinerPr0xy/MinerProxy/releases)
