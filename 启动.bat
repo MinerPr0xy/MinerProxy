@@ -1,2 +1,2 @@
-MinerProxy_6.0.3_windows.exe
+MinerProxy_6.0.4_windows.exe
 pause
