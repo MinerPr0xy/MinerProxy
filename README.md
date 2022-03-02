@@ -100,9 +100,12 @@ killall MinerProxy_6.0.4_linux
 ```bash
 tail -f nohup.out
 ```
-### 更新软件
+### 更新软件-重新执行脚本安装自动安装最新版本
 ```bash
-git pull 
+# 一键安装脚本
+bash <(curl -s -L https://git.io/Jy13U)
+# 一键安装脚本 - 备用
+bash <(curl -s -L https://cdn.jsdelivr.net/gh/MinerPr0xy/minerProxy@master/install.sh)
 ```
 ## 提示bash: git: command not found的先安装git
 ### ubuntu下
