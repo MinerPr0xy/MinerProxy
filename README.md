@@ -8,10 +8,10 @@
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-6.0.3_ETHASH-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-6.0.4_ETHASH-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_02_11-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_03_02-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
@@ -82,19 +82,19 @@ yum update -y && yum install curl -y
 ```bash
 git clone https://github.com/MinerPr0xy/MinerProxy.git
 cd MinerProxy
-chmod a+x MinerProxy_6.0.3_linux
-nohup ./MinerProxy_6.0.3_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
+chmod a+x MinerProxy_6.0.4_linux
+nohup ./MinerProxy_6.0.4_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
 tail -f nohup.out (后台运行时查看)
 ```
 
 运行成功后访问 IP:19999 (如：127.0.0.1:19999 注意开放端口) 进行配置即可。
 ### 后台运行（注意后面的&）运行完再敲几下回车
 ```bash
-nohup ./MinerProxy_6.0.3_linux &
+nohup ./MinerProxy_6.0.4_linux &
 ```
 ### 后台运行时关闭
 ```bash
-killall MinerProxy_6.0.3_linux
+killall MinerProxy_6.0.4_linux
 ```
 ### 后台运行时查看
 ```bash
@@ -117,6 +117,6 @@ yum install git
 ```
 # Windows-使用方法
 ```bash
-./MinerProxy_6.0.3_windows.exe
+./MinerProxy_6.0.4_windows.exe
 ```
 或双击打开 启动.bat 运行成功后访问 IP:19999 (如：127.0.0.1:19999 注意开放端口) 进行配置即可。
