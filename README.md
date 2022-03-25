@@ -8,10 +8,10 @@
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-6.0.4_ETHASH-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-6.0.5_ETHASH-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_03_02-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_03_24-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
