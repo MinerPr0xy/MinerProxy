@@ -1,12 +1,9 @@
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
-#### 最新版本：[V6.0.5_ETHASH(2022-03-24)](https://github.com/MinerPr0xy/MinerProxy/releases/tag/v6.0.5) - [[历史更新日志]](https://github.com/MinerPr0xy/MinerProxy/releases)
+#### 最新版本：[V6.0.4_ETHASH(2022-04-06)](https://github.com/MinerPr0xy/MinerProxy/releases/tag/v6.0.4) - [[历史更新日志]](https://github.com/MinerPr0xy/MinerProxy/releases)
 #### 联系我们：[Telegram 讨论群组(欢迎向我们提出建议)](https://t.me/Miner_Proxy)、[GitHub](https://github.com/MinerPr0xy/MinerProxy)
 #### 联系我们：QQ群：683918874、微信：edavhdl（备注：加群）
 ----
-#### V6.0.5更新內容：此次版本為大版本更新，强烈推荐更新。
-- 程序初次安装后网页后台登录端口修改为随机端口，初始弱密码修改为随机密码
-- 随机密码windows系统保存置程序目录下“pass.txt”，linux系统保存至安装目录“/etc/MinerProxy/pass.txt”
-
+#### V6.0.4更新內容：此次版本為大版本更新，强烈推荐更新。
 - 新增新款专业矿机兼容，针对部分专业矿机进行优化
 - 针对A11老版本固件针对性优化，修复一个可能引起崩溃的BUG
 
