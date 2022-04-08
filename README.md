@@ -8,10 +8,10 @@
 
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-6.0.4_ETHASH-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-6.0.5_ETHASH-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_04_06-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_04_08-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
@@ -26,6 +26,7 @@
 # 重要提示必看
 #### 1.Linux系统第一次安装完成后请重启服务器，这样可以突破连接限制，单机稳定2000台！！！
 #### 2.安装完成后，请立即修改默认密码，以防别有用心之人，扫描端口偷偷登录！！！
+#### 帮助稳定（编写中）：https://minerproxy.gitbook.io/minerproxy/
 
 # MinerProxy - 使用后算力截图，算力几乎无损耗。
 
@@ -36,6 +37,7 @@
 # 矿工交流 TG电报群：https://t.me/Miner_Proxy
 #### 联系我们：[Telegram 讨论群组(欢迎向我们提出建议)](https://t.me/Miner_Proxy)、[GitHub](https://github.com/MinerPr0xy/MinerProxy)
 #### 联系我们：QQ群：683918874、微信：edavhdl（备注：加群）
+#### 帮助稳定（编写中）：https://minerproxy.gitbook.io/minerproxy/
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/96627099/147364637-3db2caea-f536-4a9c-ad7d-d062559d46fe.png" width="500" height="500" />
@@ -77,49 +79,3 @@ centos 系统安装 curl 方法:
 yum update -y && yum install curl -y
 ```
 安装好 curl 之后就能安装脚本了
-
-# Liunx-手动安装
-```bash
-git clone https://github.com/MinerPr0xy/MinerProxy.git
-cd MinerProxy
-chmod a+x MinerProxy_6.0.4_linux
-nohup ./MinerProxy_6.0.4_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)
-tail -f nohup.out (后台运行时查看)
-```
-
-运行成功后访问 IP:随机端口 (如：127.0.0.1:随机端口 注意开放端口) 进行配置即可。
-### 后台运行（注意后面的&）运行完再敲几下回车
-```bash
-nohup ./MinerProxy_6.0.4_linux &
-```
-### 后台运行时关闭
-```bash
-killall MinerProxy_6.0.4_linux
-```
-### 后台运行时查看
-```bash
-tail -f nohup.out
-```
-### 更新软件-重新执行脚本安装自动安装最新版本
-```bash
-# 一键安装脚本
-bash <(curl -s -L https://git.io/Jy13U)
-# 一键安装脚本 - 备用
-bash <(curl -s -L https://cdn.jsdelivr.net/gh/MinerPr0xy/minerProxy@master/install.sh)
-```
-## 提示bash: git: command not found的先安装git
-### ubuntu下
-```bash
-apt update
-apt install git
-```
-### centos下
-```bash
-yum update
-yum install git
-```
-# Windows-使用方法
-```bash
-./MinerProxy_6.0.4_windows.exe
-```
-或双击打开 启动.bat 运行成功后访问 IP:随机端口 (如：127.0.0.1:随机端口 注意开放端口) 进行配置即可。 
