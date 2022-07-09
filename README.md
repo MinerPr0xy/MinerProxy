@@ -79,3 +79,4 @@ centos 系统安装 curl 方法:
 yum update -y && yum install curl -y
 ```
 安装好 curl 之后就能安装脚本了
+
