@@ -1,5 +1,5 @@
 #### 当前版本：{BUILD_VERSION}({BUILD_DATE})
-#### 最新版本：[V6.0.5_ETHASH(2022-04-08)](https://github.com/MinerPr0xy/MinerProxy/releases/tag/v6.0.5) - [[历史更新日志]](https://github.com/MinerPr0xy/MinerProxy/releases)
+#### 最新版本：[V6.0.5_ETHASH(2022-08-04)](https://github.com/MinerPr0xy/MinerProxy/releases/tag/v6.0.5) - [[历史更新日志]](https://github.com/MinerPr0xy/MinerProxy/releases)
 #### 联系我们：[Telegram 讨论群组(欢迎向我们提出建议)](https://t.me/Miner_Proxy)、[GitHub](https://github.com/MinerPr0xy/MinerProxy)
 #### 联系我们：QQ群：683918874、微信：edavhdl（备注：加群）
 ----
